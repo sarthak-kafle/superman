@@ -31,25 +31,40 @@ if(number%2==0):
     print("number is even")
 
 else:
-    print("numner is odd")"""
+    print("numner is odd")
 
 
-number=int(print("how many number do you want to check "))
-num=[]
-for i in  range(0,number):
+number = int(input("How many numbers do you want to check? "))
+num = []
 
-    number1=int(input("enter numbers"))
+for i in range(number):
+    number1 = int(input("Enter number: "))
     num.append(number1)
-gratest=list[0]
+
+greatest = num[0]
+
 for number in num:
-    if number1>gratest:
-        gratest=number1
+    if number > greatest:
+        greatest = number
 
-print("gtarestnumber is ",gratest)
-
-    
+print("The greatest number is:", greatest)
 
 
+#checking palindrom list or not 
+num=[]
+for i in range(0,5):
+    num2=input("neter number")
+    num.append(num2)
+num_copy=num.copy()
+num_copy.reverse()
+if (num==num_copy):
+    print("palindrom list")
+else:
+    print("not palindrom list")"""
 
 
-
+# tuple count and sort  methos use
+num=["a","a","b","c","a"]
+print(num.count("a"))
+num.sort()
+print(num)
