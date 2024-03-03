@@ -1,5 +1,5 @@
 
-"""# if elif else condition.
+# if elif else condition.
 num1=int(input("enter a number for num 1"))
 num2=int(input("enter a number for num2"))
 sum=num1+num2
@@ -60,7 +60,7 @@ num_copy.reverse()
 if (num==num_copy):
     print("palindrom list")
 else:
-    print("not palindrom list")"""
+    print("not palindrom list")
 
 
 # tuple count and sort  methos use
