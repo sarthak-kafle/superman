@@ -60,20 +60,5 @@ print(list5)"""
 
 
 
-list1=[]
-for i in range(3):
-    list2=input("enter string ")
-    list1.append(list2)
-list2=[]
 
-for i in range(3):
-    list3=input("enter string ")
-    list2.append(list3)
-
-list2.reverse()
-
-for i in range(3):
-    print("\n",list1[i])
-    print("\n",list2[i])
-    
 
